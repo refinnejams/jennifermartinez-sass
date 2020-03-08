@@ -12,10 +12,12 @@
     }
 
     a:link {
-        text-decoration: $primary-color;
+        color: $primary-color;
+        text-decoration: none;
     }
 
     a:hover {
+        color: $primary-color;
         text-decoration: underline;
       }
 }
